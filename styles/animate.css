@@ -1462,6 +1462,7 @@
   from {
     transform: translate3d(0, -100%, 0);
     visibility: visible;
+    
   }
 
   to {
@@ -1471,6 +1472,7 @@
 
 .slideInDown {
   animation-name: slideInDown;
+     /* transform: rotate(-180deg); */
 }
 
 @keyframes slideInLeft {
@@ -1506,16 +1508,19 @@
 @keyframes slideInUp {
   from {
     transform: translate3d(0, 100%, 0);
+           /* transform: rotate(180deg); */
     visibility: visible;
   }
 
   to {
     transform: translate3d(0, 0, 0);
+           /* transform: rotate(180deg); */
   }
 }
 
 .slideInUp {
   animation-name: slideInUp;
+       /* transform: rotate(180deg); */
 }
 
 @keyframes slideOutDown {
