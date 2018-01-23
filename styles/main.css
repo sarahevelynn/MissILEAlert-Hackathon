@@ -2,6 +2,7 @@
 body {
    background-image: url("/bg.png");
    background-color: red;
+   font-family: 'PT Sans Narrow', sans-serif;
 }
 
 header {
@@ -15,7 +16,12 @@ header {
     padding-top: 10px;
 }
 .logo-header {
+<<<<<<< HEAD
+    font-size: 30px;
+    letter-spacing: 2px;
+=======
     font-size: 20px;
+>>>>>>> 7427931a1deb3a1ea428efbc5f9e60c1a33ab969
 }
 
 .logo {
@@ -42,7 +48,13 @@ color:#f5f5f5; text-align:center; text-decoration:none; background: #ff0404; box
 
 } .round-button:hover { background: #262626; }
 
+.container-button {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
 
+}
 
 footer{
    background-color: gray;
