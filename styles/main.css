@@ -16,12 +16,8 @@ header {
     padding-top: 10px;
 }
 .logo-header {
-<<<<<<< HEAD
     font-size: 30px;
     letter-spacing: 2px; 
-=======
-    font-size: 20px;
->>>>>>> 7427931a1deb3a1ea428efbc5f9e60c1a33ab969
 }
 
 .logo {
@@ -31,13 +27,6 @@ max-width: 25px;
 }
 
 main {
-<<<<<<< HEAD
-=======
-    /* background-color: lightgray; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;  */
->>>>>>> 7427931a1deb3a1ea428efbc5f9e60c1a33ab969
     padding-top: 10px;
     padding-bottom: 10px;
     height: 80vh;
@@ -72,4 +61,9 @@ footer{
 
 .gif {
     max-width: 70vw;
+}
+canvas {
+    
+    position:absolute;
+    transform: rotate(180deg);
 }
